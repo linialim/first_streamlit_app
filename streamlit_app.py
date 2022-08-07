@@ -71,8 +71,7 @@ if streamlit.button('Get fruit load list'):
     my_data_rows = get_fruit_load_list()
     streamlit.dataframe(my_data_rows)
 
-# don't run anything past here
-streamlit.stop()
+
 
 
 
@@ -89,6 +88,9 @@ if streamlit.button('Add a fruit to the list'):
     streamlit.text(back_from_function)
     
 # streamlit.write('Thanks for adding ', add_my_fruit)
+
+# don't run anything past here
+streamlit.stop()
 
 
 
